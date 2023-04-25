@@ -1,0 +1,211 @@
+{
+  "name": "Lightsky",
+  "colors": {
+    "editor.background": "#fefdfd",
+    "editor.foreground": "#111",
+    "sideBarTitle.foreground": "#111",
+    "activityBarBadge.background": "#dfdede",
+    "activityBarBadge.foreground": "#111",
+    "activityBar.background": "#fefdfd",
+    "activityBar.foreground": "#111",
+    "activityBar.inactiveForeground": "#c1c0c0",
+    "activityBar.border": "#d6d5d5",
+    "sideBar.border": "#d6d5d5",
+    "sideBar.background": "#fefdfd",
+    "sideBar.foreground": "#111",
+    "sideBarSectionHeader.border": "#d6d5d5",
+    "sideBarSectionHeader.background": "#fefdfd",
+    "titleBar.inactiveBackground": "#fefdfd",
+    "titleBar.activeBackground": "#fefdfd",
+    "titleBar.border": "#d6d5d5",
+    "gitDecoration.modifiedResourceForeground": "#2972c4",
+    "gitDecoration.untrackedResourceForeground": "#23a03e",
+    "gitDecoration.deletedResourceForeground": "#c66b6b",
+    "editorGutter.addedBackground": "#75c987",
+    "diffEditor.insertedLineBackground": "#dbebdd",
+    "diffEditor.insertedTextBackground": "#c4d7c6",
+    "editorGutter.deletedBackground": "#c66b6b",
+    "diffEditor.removedLineBackground": "#f9aaaa",
+    "diffEditor.removedTextBackground": "#dc8282",
+    "editorGutter.modifiedBackground": "#2972c4",
+    "tab.inactiveBackground": "#fefdfd",
+    "tab.activeBorderTop": "#00000000",
+    "tab.inactiveForeground": "#777",
+    "tab.activeForeground": "#111",
+    "tab.activeBackground": "#dfdede",
+    "tab.border": "#d6d5d5",
+    "focusBorder": "#111",
+    "list.warningForeground": "#ba6c4d",
+    "list.errorForeground": "#b01717",
+    "list.activeSelectionBackground": "#dfdede",
+    "list.inactiveSelectionBackground": "#dfdede",
+    "list.hoverBackground": "#dfdede",
+    "statusBar.background": "#fefdfd",
+    "statusBar.foreground": "#111",
+    "statusBar.border": "#d6d5d5",
+    "breadcrumb.foreground": "#777",
+    "breadcrumb.focusForeground": "#111",
+    "breadcrumb.activeSelectionForeground": "#111",
+    "input.background": "#fefdfd",
+    "input.border": "#c9c7c7",
+    "input.placeholderForeground": "#777",
+    "input.foreground": "#111",
+    "button.background": "#e9e7e7",
+    "button.foreground": "#111",
+    "button.border": "#c9c7c7",
+    "inputOption.activeBorder": "#00000000",
+    "inputOption.activeBackground": "#111",
+    "inputOption.activeForeground": "#fff",
+    "editorWidget.background": "#fefdfd",
+    "editorWidget.border": "#dfdede",
+    "editorWidget.foreground": "#111",
+    "editorSuggestWidget.foreground": "#777",
+    "editorSuggestWidget.highlightForeground": "#111",
+    "editorSuggestWidget.selectedBackground": "#dfdede",
+    "editorSuggestWidget.selectedForeground": "#111",
+    "editorSuggestWidget.focusHighlightForeground": "#111",
+    "quickInput.background": "#fefdfd",
+    "quickInput.foreground": "#111",
+    "quickInputList.focusBackground": "#dfdede",
+    "quickInputList.focusForeground": "#111",
+    "quickInputList.focusIconForeground": "#111",
+    "editorLineNumber.foreground": "#777",
+    "editorLineNumber.activeForeground": "#111",
+    "textLink.foreground": "#1c1caa",
+    "textLink.activeForeground": "#1c1caa",
+    "editorWarning.foreground": "#c9a88b",
+    "editor.lineHighlightBackground": "#00000000",
+    "editor.lineHighlightBorder": "#dfdede",
+    "editor.rangeHighlightBackground": "#dfdede",
+    "editor.symbolHighlightBackground": "#dfdede",
+    "editor.hoverHighlightBackground": "#dfdede",
+    "editor.selectionHighlightBackground": "#dfdede",
+    "widget.border": "#d6d5d5",
+    "editorCursor.foreground": "#111",
+    "badge.background": "#111",
+    "badge.foreground": "#fff"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#919191"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#c3078e"
+      }
+    },
+    {
+      "name": "Variables, JSON keys, other keyword definitions",
+      "scope": [
+        "variable",
+        "string.json.comments",
+        "support.type.property-name.json",
+        "keyword.other.definition"
+      ],
+      "settings": {
+        "foreground": "#4b4ed0"
+      }
+    },
+    {
+      "name": "Object member",
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#189f79"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": ["constant"],
+      "settings": {
+        "foreground": "#cd1c05"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": [
+        "meta.type.annotation",
+        "entity.name.type",
+        "meta.type.parameters"
+      ],
+      "settings": {
+        "foreground": "#8046c2"
+      }
+    },
+    {
+      "name": "Simple strings, headings",
+      "scope": ["string.quoted", "string.template", "heading"],
+      "settings": {
+        "foreground": "#08841d"
+      }
+    },
+    {
+      "name": "RegExp",
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#80dfb1"
+      }
+    },
+    {
+      "name": "Links",
+      "scope": ["meta.link"],
+      "settings": {
+        "foreground": "#1c1caa"
+      }
+    },
+    {
+      "name": "Markup code/inline",
+      "scope": ["markup.fenced_code", "markup.inline"],
+      "settings": {
+        "foreground": "#111"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#8d0202"
+      }
+    },
+    {
+      "name": "Tag attributes",
+      "scope": ["meta.tag.attributes"],
+      "settings": {
+        "foreground": "#b22b3b"
+      }
+    },
+    {
+      "name": "Storage types",
+      "scope": ["storage"],
+      "settings": {
+        "foreground": "#127f92"
+      }
+    },
+    {
+      "name": "Keyword control",
+      "scope": ["keyword.control"],
+      "settings": {
+        "foreground": "#b130ce"
+      }
+    },
+    {
+      "name": "Keyword op",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#111"
+      }
+    },
+    {
+      "name": "text",
+      "scope": ["text"],
+      "settings": {
+        "foreground": "#555"
+      }
+    }
+  ]
+}

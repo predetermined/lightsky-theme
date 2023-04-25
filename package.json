@@ -1,0 +1,33 @@
+{
+  "name": "lightsky-theme",
+  "displayName": "Lightsky Theme",
+  "description": "A very clean VS Code light theme.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grayliquid/lightsky-theme"
+  },
+  "publisher": "l5d",
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lightsky",
+        "uiTheme": "hc-light",
+        "path": "./themes/Lightsky-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "Lightsky",
+    "Lightsky theme",
+    "Theme"
+  ],
+  "license": "GPLv3"
+}
