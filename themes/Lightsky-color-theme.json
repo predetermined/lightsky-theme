@@ -113,10 +113,10 @@
       }
     },
     {
-      "name": "Object member",
+      "name": "Object key",
       "scope": ["meta.object-literal.key"],
       "settings": {
-        "foreground": "#189f79"
+        "foreground": "#a08415"
       }
     },
     {
@@ -128,11 +128,7 @@
     },
     {
       "name": "Types",
-      "scope": [
-        "meta.type.annotation",
-        "entity.name.type",
-        "meta.type.parameters"
-      ],
+      "scope": ["meta.type", "entity.name.type"],
       "settings": {
         "foreground": "#8046c2"
       }
@@ -197,7 +193,7 @@
       "name": "Keyword op",
       "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#111"
+        "foreground": "#6d1f7f"
       }
     },
     {
