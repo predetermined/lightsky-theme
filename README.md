@@ -1,10 +1,10 @@
 # Lightsky Theme
 
-[GitHub](https://github.com/grayliquid/lightsky-theme) • [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=l5d.lightsky-theme)
+[GitHub](https://github.com/gr7d/lightsky-theme) • [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=l5d.lightsky-theme)
 
 A very clean VS Code light theme.
 
-![Screenshot of example code in combination with the Lightsky theme - a lot of cold colors, mostly red and orage.](https://raw.githubusercontent.com/grayliquid/lightsky-theme/main/screenshot.png)
+![Screenshot of example code in combination with the Lightsky theme - a lot of cold colors, mostly red and orage.](https://raw.githubusercontent.com/gr7d/lightsky-theme/main/screenshot.png)
 
 ## Installing
 
